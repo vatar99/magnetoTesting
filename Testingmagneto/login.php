@@ -1,3 +1,7 @@
+<?php include('validation.php'); 
+if (empty($_SESSION['username'])){
+}
+?>
 <html>
 <head>
     <title>Логин пользователя и регистрация</title>
